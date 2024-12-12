@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using static System.Net.Mime.MediaTypeNames;
 using (var context = new ContactContexts())
 {
-    /*var contacts = new List<Contact>
+    var contacts = new List<Contact>
     {
         new Contact { Nombre = "Jose", Apellido = "Malave", Numero = 988338901, Estado = true },
         new Contact { Nombre = "Jean", Apellido = "Romero", Numero = 986643804, Estado = true },
@@ -14,7 +14,7 @@ using (var context = new ContactContexts())
         new Contact { Nombre = "Pedro", Apellido = "Aviles", Numero = 995340179, Estado = true }
     };
     context.Contacts.AddRange(contacts);
-    context.SaveChanges();*/
+    context.SaveChanges();
     /*var contact = context.Contacts.ToList();
     foreach(var c in contact)
     {
